@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--Google Font-->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+            rel="stylesheet"
+        />
+        <!--Stylesheet-->
+        <link href="style.css" rel="stylesheet" />
+        <title>Conversor de altura</title>
+    </head>
+    <body>
+        <div class="container">
+            <h2>
+                <span>Conversor de</span>
+                Altura
+            </h2>
+            <!--Resultados-->
+            <div id="wrapper-1"></div>
+            <!--Pies-->
+            <div class="box">
+                <div class="wrapper-2">
+                    <label for="feet">Pies</label>
+                    <input type="number" id="feet" /><br />
+                </div>
+                <!--Pulgadas-->
+                <div class="wrapper-3">
+                    <label for="inches">Pulgadas</label>
+                    <input type="number" id="inches" />
+                </div>
+            </div>
+            <div class="wrapper-4">
+                <input id="button" type="submit" value="Convertir a cm" />
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
